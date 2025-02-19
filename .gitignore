@@ -244,6 +244,9 @@ celerybeat.pid
 # Environments
 .env
 .venv
+.python-version
+uv.lock
+pixi.lock
 env/
 venv/
 ENV/
@@ -283,3 +286,7 @@ cython_debug/
 
 # vscode
 .vscode/
+
+# pixi environments
+.pixi
+*.egg-info
